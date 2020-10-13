@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'express',
+1 verbose cli   'express-validator',
+1 verbose cli   'body-parser',
+1 verbose cli   'bcryptjs',
+1 verbose cli   'jsonwebtokenen' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express@^4.17.1
+8 silly fetchPackageMetaData express-validator
+9 silly fetchPackageMetaData body-parser
+10 silly fetchPackageMetaData bcryptjs
+11 silly fetchPackageMetaData jsonwebtokenen
+12 silly fetchNamedPackageData express
+13 silly mapToRegistry name express
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/express
+17 silly fetchNamedPackageData express-validator
+18 silly mapToRegistry name express-validator
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry uri https://registry.npmjs.org/express-validator
+22 silly fetchNamedPackageData body-parser
+23 silly mapToRegistry name body-parser
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+27 silly fetchNamedPackageData bcryptjs
+28 silly mapToRegistry name bcryptjs
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/bcryptjs
+32 silly fetchNamedPackageData jsonwebtokenen
+33 silly mapToRegistry name jsonwebtokenen
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/jsonwebtokenen
+37 verbose request uri https://registry.npmjs.org/jsonwebtokenen
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 12:17:31
+40 verbose request id 1f5f3f9bb5b1dc80
+41 http request GET https://registry.npmjs.org/jsonwebtokenen
+42 verbose request uri https://registry.npmjs.org/body-parser
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 12:17:31
+45 verbose etag W/"69165633b8917311c8a5b29b5aa3a438"
+46 verbose lastModified Fri, 29 Nov 2019 09:32:45 GMT
+47 http request GET https://registry.npmjs.org/body-parser
+48 verbose request uri https://registry.npmjs.org/express
+49 verbose request no auth needed
+50 info attempt registry request try #1 at 12:17:31
+51 verbose etag W/"75df8f92097b42d791578c084af85171"
+52 verbose lastModified Fri, 26 Jun 2020 20:54:17 GMT
+53 http request GET https://registry.npmjs.org/express
+54 verbose request uri https://registry.npmjs.org/bcryptjs
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 12:17:31
+57 verbose etag W/"5bf13bbe12ee6064dc3ef333523aee28"
+58 verbose lastModified Fri, 01 Mar 2019 19:24:31 GMT
+59 http request GET https://registry.npmjs.org/bcryptjs
+60 verbose request uri https://registry.npmjs.org/express-validator
+61 verbose request no auth needed
+62 info attempt registry request try #1 at 12:17:31
+63 verbose etag W/"af34603b0111cff0939e9c962788f646"
+64 verbose lastModified Sun, 02 Aug 2020 23:04:47 GMT
+65 http request GET https://registry.npmjs.org/express-validator
+66 http 304 https://registry.npmjs.org/express
+67 verbose headers { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+67 verbose headers   connection: 'keep-alive',
+67 verbose headers   'set-cookie':
+67 verbose headers    [ '__cfduid=d69aa6f2b48a1b06a8713094fde0c4eb41602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+67 verbose headers   'cf-ray': '5e171c193d9231ee-BOM',
+67 verbose headers   age: '2130',
+67 verbose headers   'cache-control': 'public, max-age=300',
+67 verbose headers   etag: '"75df8f92097b42d791578c084af85171"',
+67 verbose headers   'last-modified': 'Fri, 26 Jun 2020 20:54:17 GMT',
+67 verbose headers   vary: 'Accept-Encoding',
+67 verbose headers   'cf-cache-status': 'HIT',
+67 verbose headers   'cf-request-id': '05c24fe3c6000031ee72037200000001',
+67 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+67 verbose headers   server: 'cloudflare' }
+68 silly get cb [ 304,
+68 silly get   { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+68 silly get     connection: 'keep-alive',
+68 silly get     'set-cookie':
+68 silly get      [ '__cfduid=d69aa6f2b48a1b06a8713094fde0c4eb41602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+68 silly get     'cf-ray': '5e171c193d9231ee-BOM',
+68 silly get     age: '2130',
+68 silly get     'cache-control': 'public, max-age=300',
+68 silly get     etag: '"75df8f92097b42d791578c084af85171"',
+68 silly get     'last-modified': 'Fri, 26 Jun 2020 20:54:17 GMT',
+68 silly get     vary: 'Accept-Encoding',
+68 silly get     'cf-cache-status': 'HIT',
+68 silly get     'cf-request-id': '05c24fe3c6000031ee72037200000001',
+68 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+68 silly get     server: 'cloudflare' } ]
+69 verbose etag https://registry.npmjs.org/express from cache
+70 verbose get saving express to /home/krishnaraj/.npm/registry.npmjs.org/express/.cache.json
+71 http 304 https://registry.npmjs.org/bcryptjs
+72 verbose headers { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'set-cookie':
+72 verbose headers    [ '__cfduid=d805bc99d66f75f73be11a9899628c5e21602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+72 verbose headers   'cf-ray': '5e171c194e7f2e22-BOM',
+72 verbose headers   age: '2616',
+72 verbose headers   'cache-control': 'public, max-age=300',
+72 verbose headers   etag: '"5bf13bbe12ee6064dc3ef333523aee28"',
+72 verbose headers   'last-modified': 'Fri, 01 Mar 2019 19:24:31 GMT',
+72 verbose headers   vary: 'Accept-Encoding',
+72 verbose headers   'cf-cache-status': 'HIT',
+72 verbose headers   'cf-request-id': '05c24fe3cb00002e2249035200000001',
+72 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 verbose headers   server: 'cloudflare' }
+73 silly get cb [ 304,
+73 silly get   { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+73 silly get     connection: 'keep-alive',
+73 silly get     'set-cookie':
+73 silly get      [ '__cfduid=d805bc99d66f75f73be11a9899628c5e21602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+73 silly get     'cf-ray': '5e171c194e7f2e22-BOM',
+73 silly get     age: '2616',
+73 silly get     'cache-control': 'public, max-age=300',
+73 silly get     etag: '"5bf13bbe12ee6064dc3ef333523aee28"',
+73 silly get     'last-modified': 'Fri, 01 Mar 2019 19:24:31 GMT',
+73 silly get     vary: 'Accept-Encoding',
+73 silly get     'cf-cache-status': 'HIT',
+73 silly get     'cf-request-id': '05c24fe3cb00002e2249035200000001',
+73 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly get     server: 'cloudflare' } ]
+74 verbose etag https://registry.npmjs.org/bcryptjs from cache
+75 verbose get saving bcryptjs to /home/krishnaraj/.npm/registry.npmjs.org/bcryptjs/.cache.json
+76 http 304 https://registry.npmjs.org/express-validator
+77 verbose headers { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+77 verbose headers   connection: 'keep-alive',
+77 verbose headers   'set-cookie':
+77 verbose headers    [ '__cfduid=d20d18f5b6d845fad71a50a580e6e12a41602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+77 verbose headers   'cf-ray': '5e171c19aa7f31ab-BOM',
+77 verbose headers   age: '2820',
+77 verbose headers   'cache-control': 'public, max-age=300',
+77 verbose headers   etag: '"af34603b0111cff0939e9c962788f646"',
+77 verbose headers   'last-modified': 'Sun, 02 Aug 2020 23:04:47 GMT',
+77 verbose headers   vary: 'Accept-Encoding',
+77 verbose headers   'cf-cache-status': 'HIT',
+77 verbose headers   'cf-request-id': '05c24fe40d000031ab5b8f4200000001',
+77 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+77 verbose headers   server: 'cloudflare' }
+78 silly get cb [ 304,
+78 silly get   { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+78 silly get     connection: 'keep-alive',
+78 silly get     'set-cookie':
+78 silly get      [ '__cfduid=d20d18f5b6d845fad71a50a580e6e12a41602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+78 silly get     'cf-ray': '5e171c19aa7f31ab-BOM',
+78 silly get     age: '2820',
+78 silly get     'cache-control': 'public, max-age=300',
+78 silly get     etag: '"af34603b0111cff0939e9c962788f646"',
+78 silly get     'last-modified': 'Sun, 02 Aug 2020 23:04:47 GMT',
+78 silly get     vary: 'Accept-Encoding',
+78 silly get     'cf-cache-status': 'HIT',
+78 silly get     'cf-request-id': '05c24fe40d000031ab5b8f4200000001',
+78 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+78 silly get     server: 'cloudflare' } ]
+79 verbose etag https://registry.npmjs.org/express-validator from cache
+80 verbose get saving express-validator to /home/krishnaraj/.npm/registry.npmjs.org/express-validator/.cache.json
+81 http 304 https://registry.npmjs.org/body-parser
+82 verbose headers { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'set-cookie':
+82 verbose headers    [ '__cfduid=da6777db0fba44476c2def66f7f2a0f221602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+82 verbose headers   'cf-ray': '5e171c19bd644dad-BOM',
+82 verbose headers   age: '1426',
+82 verbose headers   'cache-control': 'public, max-age=300',
+82 verbose headers   etag: '"69165633b8917311c8a5b29b5aa3a438"',
+82 verbose headers   'last-modified': 'Fri, 29 Nov 2019 09:32:45 GMT',
+82 verbose headers   vary: 'Accept-Encoding',
+82 verbose headers   'cf-cache-status': 'HIT',
+82 verbose headers   'cf-request-id': '05c24fe41300004dadf1240200000001',
+82 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+82 verbose headers   server: 'cloudflare' }
+83 silly get cb [ 304,
+83 silly get   { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+83 silly get     connection: 'keep-alive',
+83 silly get     'set-cookie':
+83 silly get      [ '__cfduid=da6777db0fba44476c2def66f7f2a0f221602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+83 silly get     'cf-ray': '5e171c19bd644dad-BOM',
+83 silly get     age: '1426',
+83 silly get     'cache-control': 'public, max-age=300',
+83 silly get     etag: '"69165633b8917311c8a5b29b5aa3a438"',
+83 silly get     'last-modified': 'Fri, 29 Nov 2019 09:32:45 GMT',
+83 silly get     vary: 'Accept-Encoding',
+83 silly get     'cf-cache-status': 'HIT',
+83 silly get     'cf-request-id': '05c24fe41300004dadf1240200000001',
+83 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+83 silly get     server: 'cloudflare' } ]
+84 verbose etag https://registry.npmjs.org/body-parser from cache
+85 verbose get saving body-parser to /home/krishnaraj/.npm/registry.npmjs.org/body-parser/.cache.json
+86 http 404 https://registry.npmjs.org/jsonwebtokenen
+87 verbose headers { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+87 verbose headers   'content-type': 'application/json',
+87 verbose headers   'content-length': '21',
+87 verbose headers   connection: 'keep-alive',
+87 verbose headers   'set-cookie':
+87 verbose headers    [ '__cfduid=d2e6cccda212c151040436f91a726f1881602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+87 verbose headers   'cf-ray': '5e171c193bfa31dc-BOM',
+87 verbose headers   vary: 'Accept-Encoding',
+87 verbose headers   'cf-cache-status': 'MISS',
+87 verbose headers   'cf-request-id': '05c24fe3c0000031dce9901200000001',
+87 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+87 verbose headers   server: 'cloudflare' }
+88 silly get cb [ 404,
+88 silly get   { date: 'Tue, 13 Oct 2020 06:47:32 GMT',
+88 silly get     'content-type': 'application/json',
+88 silly get     'content-length': '21',
+88 silly get     connection: 'keep-alive',
+88 silly get     'set-cookie':
+88 silly get      [ '__cfduid=d2e6cccda212c151040436f91a726f1881602571652; expires=Thu, 12-Nov-20 06:47:32 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+88 silly get     'cf-ray': '5e171c193bfa31dc-BOM',
+88 silly get     vary: 'Accept-Encoding',
+88 silly get     'cf-cache-status': 'MISS',
+88 silly get     'cf-request-id': '05c24fe3c0000031dce9901200000001',
+88 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+88 silly get     server: 'cloudflare' } ]
+89 silly fetchPackageMetaData Error: Not found : jsonwebtokenen
+89 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+89 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+89 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+89 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+89 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+89 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+89 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+89 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+89 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+89 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+89 silly fetchPackageMetaData  error for jsonwebtokenen { Error: Not found : jsonwebtokenen
+89 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+89 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+89 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+89 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+89 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+89 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+89 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+89 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+89 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+89 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'jsonwebtokenen', statusCode: 404, code: 'E404' }
+90 silly rollbackFailedOptional Starting
+91 silly rollbackFailedOptional Finishing
+92 silly runTopLevelLifecycles Starting
+93 silly runTopLevelLifecycles Finishing
+94 silly install printInstalled
+95 verbose stack Error: Not found : jsonwebtokenen
+95 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+95 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+95 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+95 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+95 verbose stack     at emitTwo (events.js:126:13)
+95 verbose stack     at Request.emit (events.js:214:7)
+95 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+95 verbose stack     at emitOne (events.js:121:20)
+95 verbose stack     at Request.emit (events.js:211:7)
+95 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+96 verbose statusCode 404
+97 verbose pkgid jsonwebtokenen
+98 verbose cwd /home/krishnaraj/Desktop/uploadfile
+99 error Linux 5.0.0-32-generic
+100 error argv "/usr/bin/node" "/usr/bin/npm" "install" "express" "express-validator" "body-parser" "bcryptjs" "jsonwebtokenen"
+101 error node v8.10.0
+102 error npm  v3.5.2
+103 error code E404
+104 error 404 Not found : jsonwebtokenen
+105 error 404
+106 error 404 'jsonwebtokenen' is not in the npm registry.
+107 error 404 You should bug the author to publish it (or use the name yourself!)
+108 error 404 Note that you can also install from a
+109 error 404 tarball, folder, http url, or git url.
+110 verbose exit [ 1, true ]
