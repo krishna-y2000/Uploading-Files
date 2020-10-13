@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const MONGOURI = "mongodb+srv://dbKrishna:Kri75676@cluster0-9vtky.mongodb.net/jwt-authentication?retryWrites=true&w=majority";
 
 const connectMongo = async () => {
     try{
