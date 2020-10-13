@@ -4,7 +4,7 @@ const multer = require("multer") ;
 const router = express.Router();
 const mongoose = require('mongoose');
 const GridFsStorage = require('multer-gridfs-storage')
-const MONGOURI = "mongodb+srv://dbKrishna:Kri75676@cluster0-9vtky.mongodb.net/uploaded-images?retryWrites=true&w=majority";
+const MONGOURI = "mongodb+srv://<Username>:<password>@cluster0-9vtky.mongodb.net/<DB-Name>s?retryWrites=true&w=majority";
 const promise = require('promise');
 var crypto = require('crypto');
 var mongoD = require("../config/db");
